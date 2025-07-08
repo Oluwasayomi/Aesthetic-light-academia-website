@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  
+  body {
+    @apply bg-white text-black flex font-sans h-screen justify-center items-center gap-x-16
+  }
+}
