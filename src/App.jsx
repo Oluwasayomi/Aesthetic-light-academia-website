@@ -1,39 +1,52 @@
-export default function App() {
+import './App.css'
+
+import Card from './components/Card'
+import Pages from './Pages'
+
+function App() {
   return (
-   <main>
+    <div>
+      <h4 className="title">For my Light Academia girlies</h4>
+      <p className="subtitle">Choose one to experience a different Light Academia inspiration:</p>
 
-    <p>Choose one to experience a different Light Academia inspiration</p>
+        <div className="cards">
+        <Card 
+        imgSrc="src/assets/Light Academia.jpg"
+        imgAlt="Light Academia image" 
+        location="🕈 Inner" 
+        category="Books Yoga Mindset" 
+        title="Light Academia" 
+        rating="10/10 Rating"
+        description="The main topic behind light academia. It is not just about aesthetic,
+        but being able to back that gorgeous look with equally gorgeous mind. Who said being a genius was overrated?"/>
 
-      <div className="w-[300px] h-[420px] bg-transparent cursor-pointer group perspective">
-        <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
+        <Card
+        imgSrc="src/assets/Light Academia.jpg" 
+        imgAlt="Light Academia image" 
+        location="🕈 Outer" 
+        category="Accessories Clothing Shoes" 
+        title="Light Academia"
+        rating="Solid 10/10" 
+        description="Your outer look matters just as much as inside. Remember, beauty and brains darling.
+        Be absolutely smart and look good doing it."/>
 
-          <div className="absolute backface-hidden border-2 w-full h-full">
-          <img src="src/assets/Light Academia.jpg" alt="Light academia pic" className="w-full h-full"/>
-          </div>
-          <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100">
-            <div className="text-center flex flex-col item-center justify-center h-full">
-              <h1>Light Academia inspiration</h1>
-              <p className="my-2">9.9 Rating</p>
-              <p> 
-                Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Ullam repellendus quis 
-                ab corrupti saepe sit corporis esse! 
-                Iste quibusdam nesciunt itaque, 
-                quisquam aspernatur quas ex libero 
-                eaque voluptas inventore eius.
-              </p>
-              <button className="bg-pink-400 px-6 py-2 font-semibold text-white rounded-full 
-              absolute left-1/2 transform -translate-x-1/2 -bottom-5 delay-500 duration-1000 group-hover:bottom-5 scale-0
-              group-hover:scale-125">
-              Click now</button>
-            </div>
-          </div>
-
+        <Card
+        imgSrc="src/assets/Light Academia.jpg" 
+        imgAlt="Light Academia image" 
+        location="🕈 All" 
+        category="Time Resourcefulness Balance" 
+        title="Light Academia"
+        rating="Perfect!" 
+        description="As you're trying you best to fit in with the Light Academia mindset.
+        Make sure you're keeping a balance with life as well. Not just being the beauty with brains,
+        but also having a great social and financial life.
+        You can do it girl!"/>
         </div>
-      </div>
 
-    <h4>For all my light academia girlies</h4>
-  
-   </main>
+      <Pages/>
+
+    </div>
   )
 }
+
+export default App

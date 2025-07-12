@@ -3,6 +3,9 @@ import React from "react"
 const Pages = () => {
 return (
     <section>
+        <br/>
+        <hr/>
+        
         <div>
             <h1>This is an h1 heading</h1>
             <h2>This is an h2 heading</h2>
@@ -93,3 +96,5 @@ return (
     </section>
 )
 }
+
+export default Pages

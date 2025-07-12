@@ -1,4 +1,4 @@
-An aesthetic light academia website equipped with react components, tailwind css, as well as spline. 
+An aesthetic light academia website equipped with react components and beautiful as well as responsive css. 
 
 
 # React + Vite

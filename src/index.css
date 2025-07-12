@@ -1,10 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-@layer base {
-  
-  body {
-    @apply bg-white text-black flex font-sans h-screen justify-center items-center gap-x-16
-  }
+body {
+  max-width: 1550px;
+  margin: 0 auto;
+  background: radial-gradient(circle, #f8e4c0, #c4b7aa);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #DAA06D;
 }
