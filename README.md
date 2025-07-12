@@ -1,3 +1,13 @@
+<img width="1882" height="737" alt="image" src="https://github.com/user-attachments/assets/72b67ecf-221d-4ea0-8498-f23b179528e4" />
+
+<img width="1168" height="459" alt="image" src="https://github.com/user-attachments/assets/8ab159f0-e589-4bdb-b8f8-f94f892abb9f" />
+
+<img width="1162" height="459" alt="image" src="https://github.com/user-attachments/assets/dc1b58c4-dc4e-4826-983b-c0dd3f25dc1c" />
+
+<img width="1164" height="458" alt="image" src="https://github.com/user-attachments/assets/f3d77d92-869c-477a-80ff-d0683cd349d6" />
+
+
+
 An aesthetic light academia website equipped with react components and beautiful as well as responsive css. 
 
 
